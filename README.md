@@ -20,7 +20,7 @@ The repository includes implementations of the following algorithms to solve the
 ## Data Structure
 `K_interface` is an interface that will be implemented by the `Knapsack` abstract class. Additionally, `K_interface` extends the `Comparable` interface. Each selected algorithm will implement the `Knapsack` class to perform their respective operations.
 <p align="center">
-  <img src="img/structure.png" alt="Data structure" width="45%">
+  <img src="img/structure.png" alt="Data structure" width="65%">
 </p>
 
 ## Setup
@@ -48,13 +48,13 @@ Item[] items = {
 };
 ```
 ### Result and Discussion
-**Item selected by each algorithm**
+
 <p align="center">
-  <img src="img/output.png" alt="output" width="65%">
+  <img src="img/output.png" alt="output" width="45%">
 </p>
 
 **Algorithm Performance**
-
+<center>
 <table>
   <thead>
     <tr>
@@ -89,7 +89,12 @@ Item[] items = {
     </tr>
   </tbody>
 </table>
+</center>
 
 
 In the knapsack problem analysis, all three algorithms—Greedy, Brute Force, and Dynamic Programming—achieve the same total values with the maximum capacity load. However, the Dynamic Programming algorithm stands out for its efficiency. With a linear time complexity of O(n), it outperforms the Greedy algorithm's quadratic complexity of O(n^2) and the Brute Force algorithm's exponential complexity of O(n*2^n). Dynamic Programming effectively breaks the problem into smaller, manageable parts, solving it with a single loop. Conversely, the Brute Force algorithm's execution time grows exponentially with input size, while the Greedy algorithm’s time complexity increases quadratically.
 
+## Contributors
+-  Vicrace Chan Jia Lin
+-  Goh Wai Siang
+-  Tan Eong Seang
